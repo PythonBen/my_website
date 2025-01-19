@@ -5,7 +5,7 @@ hdrs = (
     Script(src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default"),
 )
 
-app, rt = fast_app(hdrs=hdrs, static_path="mysite/data")
+app, rt = fast_app(hdrs=hdrs, static_path="my_website/data")
 
 logo_large = Img(
                 src="/logos/logo2.jpg",  # Replace with your logo URL
